@@ -15,7 +15,7 @@ let repo =`
 > *BOT OWNER:*
 *|* *CREW AWAIS*
 
-> *AWAIS MD REPO:*
+> *xIKRATOSx REPO:*
 *|* *https://github.com/Awais-star-a11y/AWAIS-MD*
 
 > *SUPPORT CHANNEL:*
@@ -36,7 +36,7 @@ await conn.sendMessage(from, { text: repo ,
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'AWAIS MD',
+title: 'xIKRATOSx',
 body: `${pushname}`,
 mediaType: 1,
 sourceUrl: "https://github.com/Awais-star-a11y/AWAIS-MD" ,

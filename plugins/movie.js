@@ -25,7 +25,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬 Awais MD 🎬*
+*🎬 xIKRATOSx 🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}

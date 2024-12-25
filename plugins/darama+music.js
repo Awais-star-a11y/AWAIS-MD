@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *AWAIS MD MUSIC DOWNLOADING* ]⦁⫸
+⫷⦁[ *xIKRATOSx MUSIC DOWNLOADING* ]⦁⫸
 
 🎵 *MUSIC FOUND!* 
 
@@ -29,7 +29,7 @@ let desc = `
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *AWAIS MD WHATSAPP BOT* 
+> *xIKRATOSx WHATSAPP BOT* 
 
 > *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ crew AWAIS* 
 `
@@ -70,7 +70,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *•AWAIS-MD VIDEO DOWNLOADING* ]⦁⫸ 
+⫷⦁[ *•xIKRATOSx VIDEO DOWNLOADING* ]⦁⫸ 
 
 🎥 *VIDEO FOUND!* 
 
@@ -82,7 +82,7 @@ let desc = `
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *AWAIS-MD WHATSAPP BOT* 
+> *xIKRATOSx WHATSAPP BOT* 
 
 > *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ crew AWAIS*
 `

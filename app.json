@@ -1,6 +1,6 @@
 {
-  "name": "AWAIS-MD",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀᴡᴀɪs ᴍᴅ",
+  "name": "xIKRATOSx",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ xIKRATOSx",
   "logo": "https://endpoint.web.id/server/file/8Cmyffly1bMBLr.jpg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -35,8 +35,14 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": true,
       "value": "public"
+    },
+    
+    "ANTI_VV": {
+      "description": "Make it true if you want bot auto saves ViewOnceMessage.",
+      "required": true,
+      "value": "false"
     }, 
-
+    
     "AUTO_VOICE": {
       "description": "Make it true if you want bot auto voice.",
       "required": true,
@@ -119,7 +125,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "ᴀᴡᴀɪs ᴍᴅ"
+      "value": "xIKRATOSx"
     }, 
 
     "HEART_REACT": {
@@ -151,6 +157,5 @@
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
-     ],
-  "stack": "heroku-24"
+     ]
 }

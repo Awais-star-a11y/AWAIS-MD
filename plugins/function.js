@@ -71,3 +71,52 @@ cmd({
         reply("An error occurred while processing the message.");
     }
 });
+
+/*cmd({
+    on: "body"
+}, async (conn, mek, m, { from, body, sender, isGroup, isAdmins, isBotAdmins, reply }) => {
+        try {
+            const quot = mek.msg.contextInfo.viewOnceMessageV2;
+            if(quot)
+            {
+            if(quot.message.imageMessage) 
+            { console.log("Quot Entered") 
+               let cap =quot.message.imageMessage.caption;
+               let anu = await conn.downloadAndSaveMediaMessage(quot.message.imageMessage)
+               return conn.sendMessage(mek.chat,{image:{url : anu},caption : cap })
+            }
+            if(quot.message.videoMessage) 
+            {
+               let cap =quot.message.videoMessage.caption;
+               let anu = await conn.downloadAndSaveMediaMessage(quot.message.videoMessage)
+               return conn.sendMessage(mek.chat,{video:{url : anu},caption : cap })
+            }
+             
+            }
+            //else reply("```This is Not A ViewOnce Message```") 
+                   
+            }  
+                 
+            catch(e) {  console.log("error" , e ) }     
+            
+                   
+            //if(!mek.quoted) return reply("```Uh Please Reply A ViewOnce Message```")           
+            if(mek.mtype === "viewOnceMessage")
+            { console.log("ViewOnce Entered") 
+             if(mek.message.imageMessage )
+            { 
+              let cap =mek.message.imageMessage.caption;
+              let anu = await conn.downloadAndSaveMediaMessage(mek.message.imageMessage)
+              conn.sendMessage(mek.chat,{image:{url : anu},caption : cap })
+            }
+            else if(MediaKeyMessageEvent.message.videoMessage )
+            {
+              let cap =mek.message.videoMessage.caption;
+              let anu = await conn.downloadAndSaveMediaMessage(mek.message.videoMessage)
+              conn.sendMessage(mek.chat,{video:{url : anu},caption : cap })
+            }
+            
+            }
+            else return
+});
+*/

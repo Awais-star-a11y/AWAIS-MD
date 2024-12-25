@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭━━━〔 *AWAIS-MD* 〕━━━┈⊷
+        let envSettings = `╭━━━〔 *xIKRATOSx* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 🗿*
 ┃▸└───────────···๏
@@ -55,7 +55,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: "AWAIS MD",
+                        newsletterName: "xIKRATOSx",
                         serverMessageId: 143
                     }
                 }
