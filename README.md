@@ -86,7 +86,7 @@ src="https://cardivo.vercel.app/api?name=AWAIS%20CHUZA%20MD%20V2&description=�
 -------
 
 <p align="center">
-  <a href="https://wa.me/+923182832887?text=*ʜɪɪ+crew AWAIS--+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+AWAIS-ᴍᴅ+ʀᴇᴘᴏ!!*" target="_blank">
+  <a href="https://wa.me/+923182832887?text=*ʜɪɪ+crew AWAIS--+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+ᴀᴡᴀɪs-ᴍᴅ+ʀᴇᴘᴏ!!*" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 -----------    
