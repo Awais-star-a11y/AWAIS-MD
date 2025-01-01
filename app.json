@@ -49,6 +49,12 @@
       "value": "true"
     }, 
 
+    "ANTI_CALL": {
+      "description": "true this to reject calls automatically .",
+      "required": false,
+      "value": "fals"
+    }, 
+
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
       "required": false,
