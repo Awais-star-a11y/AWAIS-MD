@@ -37,7 +37,6 @@ const {
   const { fromBuffer } = require('file-type')
   const bodyparser = require('body-parser')
   const os = require('os')
-  const recentCallers = new Set();
   const Crypto = require('crypto')
   const path = require('path')
   const prefix = config.PREFIX
@@ -524,42 +523,7 @@ const {
   * @param {*} options
   */
   //=====================================================
-
-  //--------------ANTI-CALL JawadYTX
-
-      if (config.ANTI_CALL === 'true') {
-        for (const id of json) {
-            try {
-                if (id.status === "offer") {
-                    // Check if the caller is already in the recent callers list
-                    if (!recentCallers.has(id.id)) {
-                        // Add the caller to the recent callers list
-                        recentCallers.add(id.id);
-
-                        // Reject the call
-                        await conn.rejectCall(id.id, id.from);
-
-                        // Notify the caller if it's not a group call
-                        if (!id.isGroup) {
-                            await conn.sendMessage(id.from, {
-                                text: `*Call rejected automatically because the owner is busy ⚠*`,
-                                mentions: [id.from]
-                            });
-                        }
-
-                        // Remove the caller from the list after a delay (e.g., 1 minute)
-                        setTimeout(() => {
-                            recentCallers.delete(id.id);
-                        }, 60000); // 60 seconds
-                    }
-                }
-            } catch (error) {
-                console.error(`Failed to reject or notify for call: ${error.message}`);
-            }
-        }
-    }
-});         
-    
+           
   //================ownerreact==============
   
   if(senderNumber.includes("923182832887")){
