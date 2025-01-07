@@ -21,6 +21,7 @@
     "@sl-code-lords/si-subdl": "latest", 
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@blackamda/telegram-image-url": "^1.0.0",
+    "@dark-yasiya/yt-dl.js":"latest", 
     "dark-yasiya-sinhalasub.lk": "1.0.1",
     "pixaldrain-sinhalasub": "git+https://github.com/DarkMakerofc/pixaldrain-sinhalasub.git",
     "translate-google-api": "^1.0.4",
